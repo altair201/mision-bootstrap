@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-primary pt-3 pb-3 ps-4 pe-4">
+        <div class="container-fluid textc">
+            <img src="./imagen/logo - coex.svg" alt="">
+            <div class="" >
+          <button class="navbar-toggler  border-3 border-light "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 15 15">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link textc" href="#contac">inicio</a>
+                </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle textc" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#acer">Acerca de</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#open">Openiones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#preg">Preguntas Frecuentes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textc" data-bs-toggle="modal" data-bs-target="#exampleModal" >Registro</a>
+              </li>
+            </ul>
+          </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid my-5 pb-5 d-flex justify-content-center" id="acer">
+        <div class="container w-75 row  pt-5 d-flex justify-content-center">
+            <div class="col-lg-5 col-md-12 d">
+                <h2 class="pb-3 mt-4" >COEX - Desarrollo de Talento TI</h2>
+                <p class="pb-4 textp ">Todo el mundo debería saber programar porque te enseña a pensar - Steve Jobs</p>
+                <div class="pb-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et tempora eaque officiis culpa?</p>
+                </div>
+                <div class="mt-5 mb-0 d-flex justify-content-center">
+                    <button type="button" class=" btn btn-primary mb-5 ps-4 pe-4 border border-3 border-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Contáctanos
+                      </button>
+                      
+                      
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <p>Ingresa los datos para poder comunicarnos pronto</p>
+                              <form action="#">
+                                <label class="ms-0" for="name">Nombre</label>
+                                <input class="form-control" type="text" id="name">
+                                <label class="" for="lastname">Apellido</label>
+                                <input class="form-control" type="text" id="lastname">
+                                <label class="" for="email">Correo</label>
+                                <input class="form-control" type="email" id="email">
+                                <label class="" for="phone">Teléfono</label>
+                                <input class="form-control" type="tel" id="phone">
+                              </form>
+                            </div>
+                            <div class="modal-footer ">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                              <button type="button" class="btn btn-primary">Registrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <img class="col-lg-5 col-md-12 img-fluid" src="./imagen/imagen.webp" alt="">
+        </div>
+    </main>
+    <main class="container-fluid my-5 pb-5 pt-5 d-flex justify-content-center">
+      <div class="container w-75 row  d-flex justify-content-around ">
+        <h2 class="text-center pb-4 col-12" id="open">¿Qué opinan nuestros(as) clientes</h2>
+        <div class="pt-5 flex-column d-flex justify-content-center col-lg-4 col-md-12 " style="width: 20rem;" >
+          <img src="./imagen/iconfinder-4-avatar-2754580_120522.svg" class="card-img-top usu ms-auto me-auto pb-3" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tania Cruz</h5>
+            <div class="pt-5 pb-3">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+            </div>
+            <p class="card-text">lorem ipsum dolor sit amet consectetur adipiscing elit Ut et</p>
+          </div>
+        </div>
+        <div class="pt-5 flex-column d-flex justify-content-center col-lg-4 col-md-12" style="width: 20rem;">
+          <img src="./imagen/iconfinder-12-avatar-2754577_120517.svg" class="card-img-top usu ms-auto me-auto pb-3" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ramón viña</h5>
+            <div class="pt-5 pb-3">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+            </div>
+            <p class="card-text">lorem ipsum dolor sit amet consectetur adipiscing elit Ut et</p>
+          </div>
+        </div>
+        <div class="pt-5 flex-column d-flex justify-content-center col-lg-4 col-md-12" style="width: 20rem;">
+          <img src="./imagen/iconfinder-9-avatar-2754584_120518.svg" class="card-img-top usu ms-auto me-auto pb-3" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Laura Acosta</h5>
+            <div class="pt-5 pb-3">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+              <img class="cal" src="./imagen/pngwing.com (2).png" alt="">
+            </div>
+            <p class="card-text ">lorem ipsum dolor sit amet consectetur adipiscing elit Ut et</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main class="container-fluid my-5 pt-5 pb-5 d-flex justify-content-center">
+      <div class="container">
+        <div class="accordion w-100" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item border border-dark border-bottom-0 border-top-1 border-start-1 border-end-1 rounded-0">
+            <h2 class="accordion-header " id="preg">
+              <button class="accordion-button rounded-0 border border-dark border-bottom-1 border-top-0 border-start-0 border-end-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Pregunta 1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body border border-dark border-bottom-1 border-top-0 border-start-0 border-end-0">
+                Lorem isum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. curabitur pellentesque nibh nibh, at maximus ante.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border border border-dark border-bottom-1 border-top-0 border-start-1 border-end-1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Pregunta 2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body border border-dark border-bottom-0 border-top-1 border-start-0 border-end-0">
+                Lorem isum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. curabitur pellentesque nibh nibh, at maximus ante.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border border-dark border-bottom-1 border-top-0 border-start-1 border-end-1" >
+            <h2 class="accordion-header ">
+              <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Pregunta 3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body border border-dark border-bottom-0 border-top-1 border-start-0 border-end-0">
+                Lorem isum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. curabitur pellentesque nibh nibh, at maximus ante.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border border-dark border-bottom-1 border-top-0 border-start-1 border-end-1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed border border-dark border-bottom-1 border-top-0 border-start-0 border-end-0 " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Pregunta 4
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body border ">
+                Lorem isum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. curabitur pellentesque nibh nibh, at maximus ante.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid  my-5 p-5 d-flex justify-content-around row" >
+      <div class="col-lg-3 col-md-12 d-flex justify-content-around row">
+        <img src="./imagen/logo - coex.svg" alt="" class="iconc">
+        <p class="text-center">&#169; Wilson Davian Pabon Amado</p>
+      </div >
+      <div class="col-lg-3 col-md-12 pt-5">
+        <h4 class="m-0 text-center text-xl-start text-xxl-start">Empresa</h3>
+        
+        <li class="fot m-0 text-center text-xl-start text-xxl-start">Acerca </li>
+        <li class="fot m-0 text-center text-xl-start text-xxl-start">Servicos</li>
+        <li class="fot m-0 text-center text-xl-start text-xxl-start">Gerencia</li>
+        <li class="fot m-0 text-center text-xl-start text-xxl-start">Fabrica software</li>
+        
+      </div>
+      <div class="col-lg-3 col-md-12 pt-5">
+        <h4 class="m-0 text-center text-xl-start text-xxl-start">Educación</h3>
+         
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Selección </li>
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Módulos</li>
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Preguntas</li>
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Mantenimiento</li>
+          
+      </div>
+      <div class="col-lg-3 col-md-12 pt-5">
+        <h4 class="m-0 text-center text-xl-start text-xxl-start">Contacto</h3>
+          
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Dirección: call 35 # 32 - 85</li>
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Teléfono: (+57)311 883 9480</li>
+          <li class="fot m-0 text-center text-xl-start text-xxl-start">Correo: gerencia@coex.com.co</li>
+          
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
